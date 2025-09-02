@@ -4,10 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apollo Hospitals Eka Bot</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Apollo Assist - AI Healthcare Assistant | Apollo Hospitals</title>
+    <meta name="title" content="Apollo Assist - AI Healthcare Assistant | Apollo Hospitals">
+    <meta name="description" content="Experience Apollo Assist, your AI-powered healthcare companion from Apollo Hospitals. Book appointments, consult doctors, and get medical information instantly with Eka Care technology.">
+    <meta name="keywords" content="Apollo Hospitals, healthcare assistant, AI doctor, medical appointments, telemedicine, Eka Care, hospital chatbot">
+    <meta name="author" content="Apollo Hospitals">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/svg+xml" href="https://cdn.prod.website-files.com/64d0bd8b475d468c8b1aa632/68b6f283b4bd03e87c64b779_APOLLOHOSP.svg">
+    <link rel="apple-touch-icon" href="https://cdn.prod.website-files.com/64d0bd8b475d468c8b1aa632/68b6f283b4bd03e87c64b779_APOLLOHOSP.svg">
+
+    <!-- Theme and Browser Colors -->
+    <meta name="theme-color" content="#007C9E">
+    <meta name="msapplication-TileColor" content="#007C9E">
+    <meta name="color-scheme" content="dark light">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://med-assist-agent.eka.care/apollo/">
+    <meta property="og:title" content="Apollo Assist - AI Healthcare Assistant | Apollo Hospitals">
+    <meta property="og:description" content="Experience Apollo Assist, your AI-powered healthcare companion from Apollo Hospitals. Book appointments, consult doctors, and get medical information instantly with Eka Care technology.">
+    <meta property="og:image" content="https://cdn.prod.website-files.com/64d0bd8b475d468c8b1aa632/68b6f283b4bd03e87c64b779_APOLLOHOSP.svg">
+    <meta property="og:site_name" content="Apollo Hospitals">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://med-assist-agent.eka.care/apollo/">
+    <meta property="twitter:title" content="Apollo Assist - AI Healthcare Assistant | Apollo Hospitals">
+    <meta property="twitter:description" content="Experience Apollo Assist, your AI-powered healthcare companion from Apollo Hospitals. Book appointments, consult doctors, and get medical information instantly with Eka Care technology.">
+    <meta property="twitter:image" content="https://cdn.prod.website-files.com/64d0bd8b475d468c8b1aa632/68b6f283b4bd03e87c64b779_APOLLOHOSP.svg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://med-assist-agent.eka.care/apollo/">
+
+    <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.prod.website-files.com" crossorigin>
+    <link rel="preconnect" href="https://med-assist-agent.eka.care" crossorigin>
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -25,32 +73,33 @@
         <!-- Content Container -->
         <div style="position: relative; z-index: 2; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; box-sizing: border-box;">
 
-            <!-- Header Section -->
-            <header style="text-align: left; margin-bottom: 3rem; animation: fadeInUp 0.8s ease-out;">
-                <!-- Logo and Title Container with Grouped Hover -->
-                <div class="brand-group" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 2rem; padding: 1.5rem; border-radius: 20px; transition: all 0.3s ease;">
-                    <!-- Apollo Logo -->
-                    <div class="apollo-logo" style="width: 64px; height: 64px; border-radius: 50%; background: rgba(255,255,255,0.95); display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 32px rgba(0,0,0,0.15); backdrop-filter: blur(10px); border: 2px solid rgba(255,255,255,0.2); transition: all 0.3s ease;">
-                        <img src="https://cdn.prod.website-files.com/64d0bd8b475d468c8b1aa632/68b6f283b4bd03e87c64b779_APOLLOHOSP.svg" alt="Apollo Hospital" style="width: 36px; height: 36px; filter: brightness(0.8); transition: filter 0.3s ease;">
-                    </div>
-
-                    <!-- Title Section -->
-                    <div class="title-section" style="display: flex; flex-direction: column; align-items: unset; gap: 0.5rem;">
-                        <h1 class="apollo-title" style="font-size: 2.8rem; font-weight: 800; letter-spacing: -0.02em; margin: 0; color: #ffffff; text-shadow: 0 4px 20px rgba(0,0,0,0.3); line-height: 1.1; transition: text-shadow 0.3s ease;">Apollo Assist</h1>
-                        <!-- Powered by Eka Care -->
-                        <div class="eka-care" style="display: flex; align-items: flex-start; gap: 0.5rem; opacity: 0.9; transition: all 0.3s ease;">
-                            <img src="https://cdn.prod.website-files.com/64d0bd8b475d468c8b1aa632/68b6f271b8b28e7066b42ebf_powered-by-eka-care.svg" alt="Eka Care" style="height: 20px; filter: brightness(0) invert(1); transition: filter 0.3s ease; margin-left: 4px;">
-                        </div>
-                    </div>
-                </div>
-            </header>
+            
 
             <!-- Welcome Message -->
             <div class="welcome-container" style="text-align: center; margin-bottom: 3rem; max-width: 600px; animation: fadeInUp 0.8s ease-out 0.2s both;">
                 <div class="welcome-card" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border-radius: 24px; padding: 2rem; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 16px 40px rgba(0,0,0,0.1); transition: all 0.3s ease; cursor: pointer;">
                     <div class="welcome-title" style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #ffffff; transition: color 0.3s ease;">
-                        👋 Welcome to <span class="highlight-text" style="color: #ffe066; font-weight: 700; transition: color 0.3s ease;">Apollo Hospitals Eka Bot</span>
+                        👋 Welcome to
                     </div>
+                    <!-- Header Section -->
+                    <header style="text-align: left; animation: fadeInUp 0.8s ease-out;">
+                        <!-- Logo and Title Container with Grouped Hover -->
+                        <div class="brand-group" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 1rem; padding: 1.5rem; border-radius: 20px; transition: all 0.3s ease;">
+                            <!-- Apollo Logo -->
+                            <div class="apollo-logo" style="width: 64px; height: 64px; border-radius: 50%; background: rgba(255,255,255,0.95); display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 32px rgba(0,0,0,0.15); backdrop-filter: blur(10px); border: 2px solid rgba(255,255,255,0.2); transition: all 0.3s ease;">
+                                <img src="https://cdn.prod.website-files.com/64d0bd8b475d468c8b1aa632/68b6f283b4bd03e87c64b779_APOLLOHOSP.svg" alt="Apollo Hospital" style="width: 36px; height: 36px; filter: brightness(0.8); transition: filter 0.3s ease;">
+                            </div>
+
+                            <!-- Title Section -->
+                            <div class="title-section" style="display: flex; flex-direction: column; align-items: unset; gap: 0.5rem;">
+                                <h1 class="apollo-title" style="font-size: 2.8rem; font-weight: 800; letter-spacing: -0.02em; margin: 0; color: #ffffff; text-shadow: 0 4px 20px rgba(0,0,0,0.3); line-height: 1.1; transition: text-shadow 0.3s ease;">Apollo Assist</h1>
+                                <!-- Powered by Eka Care -->
+                                <div class="eka-care" style="display: flex; align-items: flex-start; gap: 0.5rem; opacity: 0.9; transition: all 0.3s ease;">
+                                    <img src="https://cdn.prod.website-files.com/64d0bd8b475d468c8b1aa632/68b6f271b8b28e7066b42ebf_powered-by-eka-care.svg" alt="Eka Care" style="height: 20px; filter: brightness(0) invert(1); transition: filter 0.3s ease; margin-left: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                    </header>
                     <p class="welcome-description" style="font-size: 1rem; font-weight: 400; margin: 0; color: rgba(255,255,255,0.9); line-height: 1.6; transition: color 0.3s ease;">
                         Your AI-powered healthcare assistant is ready to help you with appointments, doctor consultations, and medical information.
                     </p>
@@ -86,39 +135,6 @@
         }
 
         /* Logical Grouped Hover Effects */
-
-        /* Brand Group Hover - Logo, Title, and Eka Care collectively */
-        .brand-group:hover {
-            background: rgba(255,255,255,0.08);
-            box-shadow: 0 12px 40px rgba(0,0,0,0.2);
-            transform: translateY(-4px);
-        }
-
-        .brand-group:hover .apollo-logo {
-            transform: scale(1.1);
-            box-shadow: 0 12px 40px rgba(0,0,0,0.25);
-        }
-
-        .brand-group:hover .apollo-logo img {
-            filter: brightness(1);
-        }
-
-        .brand-group:hover .apollo-title {
-            text-shadow: 0 6px 25px rgba(0,0,0,0.4);
-            color: #f0f8ff;
-        }
-
-        .brand-group:hover .eka-care {
-            opacity: 1;
-        }
-
-        .brand-group:hover .eka-care span {
-            color: rgba(255,255,255,0.95);
-        }
-
-        .brand-group:hover .eka-care img {
-            filter: brightness(0) invert(1) drop-shadow(0 2px 4px rgba(0,0,0,0.3));
-        }
 
         /* Chat Prompt Hover - Separate interaction */
         .chat-button:hover {
